@@ -1,16 +1,46 @@
-<html>
+<html lang="en">
+  <head>
+    <!--I followed the instructions provided on https://www.w3schools.com/bootstrap/bootstrap_get_started.asp for how to correctly link to Bootstrap-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
   <body>
+    <!--I used the information on https://www.w3schools.com/bootstrap/bootstrap_navbar.asp to create a collapsable navigation menu using Bootstrap-->
+    <nav class="navbar navbar-inverse">
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="https://sgestri1.github.io/">Serena Gestring Interactive Portfolio</a>
+    </div>
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navBar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://www.kent.edu/dining" target="_blank">KSU Culinary</a></li>
+        <li><a href="https://www.personal.kent.edu/~sgestri1/rwdproject1/index.html" target="_blank">Responsive HTML Website</a></li>
+        <li><a href="https://www.kent.edu/entrepreneurial-roadmap" target="_blank">The Entrepreneurial Roadmap</a></li>
+        <li><a href="https://www.accentequip.com/" target="_blank">AccentEquip</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
     <h1>Serena Gestring Interactive Portfolio</h1>
-    <h2>Bio</h2>
-    <p>Hello! I am a website designer and developer based in Northeast Ohio, focused on building accessible websites that provide a great user experience. I earned a B.S. in Emerging Media and Technology, minoring in Web Design and Development and User Experience Design, and I am currently pursuing a M.S. in Emerging Media and Technology, both from Kent State University.
+    <div class="container">
+      <p class="lead">Hello! I am a website designer and developer based in Northeast Ohio, focused on building accessible websites that provide a great user experience. I earned a B.S. in Emerging Media and Technology, minoring in Web Design and Development and User Experience Design, and I am currently pursuing a M.S. in Emerging Media and Technology, both from Kent State University.
 </p>
-    <h2>Skills</h2>
-    <ul>
-      <li>Proficient with HTML/CSS, basic JavaScript, and content management systems (WordPress, Drupal)</li>
-      <li>Understanding of user experience design principles and accessibility best practices</li>
-      <li>Expert verbal and written communication skills, attention to detail, and adaptability to audience</li>
-      <li>Effective problem solving, critical thinking, and project management skills</li>
-      <li>Experience working both independently as well as collaboratively with a team</li>
-    </ul>
+      <h2>Skills</h2>
+      <ul>
+        <li>Proficient with HTML/CSS, basic JavaScript, and content management systems (WordPress, Drupal)</li>
+        <li>Understanding of user experience design principles and accessibility best practices</li>
+        <li>Expert verbal and written communication skills, attention to detail, and adaptability to audience</li>
+        <li>Effective problem solving, critical thinking, and project management skills</li>
+        <li>Experience working both independently as well as collaboratively with a team</li>
+      </ul>
+    </div>
   </body>
 </html>
