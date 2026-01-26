@@ -8,14 +8,14 @@ function topFunction() {
 
 //Code for filter buttons
 filterSelection("all")
-function filterSelection(c) {
+function filterSelection(f) {
   var x, i;
   x = document.getElementsByClassName("col-sm-12");
-  if (c == "all") c = "";
+  if (f == "all") f = "";
   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
   for (i = 0; i < x.length; i++) {
     w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    if (x[i].className.indexOf(f) > -1) w3AddClass(x[i], "show");
   }
 }
 
