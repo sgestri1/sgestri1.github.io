@@ -3,14 +3,7 @@
   overflow: hidden;
 }
 
-.filterDiv {
-  float: left;
-  background-color: #2196F3;
-  color: #ffffff;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
-  margin: 2px;
+.col-sm-12 {
   display: none; /* Hidden by default */
 }
 
@@ -20,21 +13,21 @@
 }
 
 /* Style the buttons */
-.btn {
+.btnFilter {
   border: none;
-  outline: none;
   padding: 12px 16px;
-  background-color: #f1f1f1;
+  background-color: black;
+  color: white;
   cursor: pointer;
 }
 
-/* Add a light grey background on mouse-over */
-.btn:hover {
-  background-color: #ddd;
+/* Add a dark grey background on mouse-over */
+.btnFilter:hover {
+  background-color: #4d4c4c;
 }
 
-/* Add a dark background to the active button */
-.btn.active {
-  background-color: #666;
-  color: white;
+/* Add a light background and dark text to the active button */
+.btnFilter.active {
+  background-color: #a3a3a3;
+  color: black;
 }
