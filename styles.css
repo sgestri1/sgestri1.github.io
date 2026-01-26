@@ -1,6 +1,10 @@
 /*Used the following source as a reference: https://www.w3schools.com/howto/howto_js_filter_elements.asp*/
 
 .col-sm-12 {
+  border-style:solid;
+  padding:4%;
+  margin-bottom: 2%;
+  border-radius: 10%;
   display: none; /* Hidden by default */
 }
 
