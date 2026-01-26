@@ -15,6 +15,7 @@
 
 /* Style the buttons */
 .btnFilter {
+  border-style:solid;
   padding: 1%;
   border-radius: 5%;
   background-color: black;
