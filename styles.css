@@ -5,7 +5,7 @@
   padding:4%;
   margin-bottom: 2%;
   border-radius: 10%;
-  /*display: none;*/ /* Hidden by default */
+  display: none; /* Hidden by default */
 }
 
 /* The "show" class is added to the filtered elements */
