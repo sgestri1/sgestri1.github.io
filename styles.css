@@ -28,7 +28,7 @@
 }
 
 /* Add a light background and dark text to the active button */
-.active {
+.btnFilter.active {
   background-color: #a3a3a3;
   color: black;
 }
